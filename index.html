@@ -1,145 +1,28 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-cn">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>番剧卡 Demo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- 新 Bootstrap5 核心 CSS 文件 -->
     <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
-
-    <title>Document</title>
+    <link rel="stylesheet" href="./css.css">
 </head>
 
 <body>
-    <div class="container-fluid">
-        <!--总容器-->
-
-
-        <div class="row g-md-1  justify-content-evenly">
-
-
-            <div class=" mb-3 col-sm-6 col-md-4">
-                <!-- 卡片 -->
-                <img style="object-fit: cover; max-height: 400px;"
-                    src="https://s-sh-2164-magma-ink.oss.dogecdn.com/wp-content/uploads/2021/09/1631682467-333349_nnTfr.jpg"
-                    class="rounded mx-auto d-block img-thumbnail shadow">
-
-
-                <!-- 卡片信息展示区 -->
-                <div class="card-body text-center">
-                    <h3 class="card-title fw-light">迦希女王不会放弃</h3>
-                    <h6 class="card-subtitle mb-2 text-muted">⭐5.5 💘超爱 👍日常类推荐</h6>
-                    <p class="card-text">
-                        <!-- 标签容器 -->
-
-                        <span class="badge bg-light text-black shadow">来源 7 月新番</span>
-                        <span class="badge bg-light text-black shadow">漫改</span>
-                        <span class="badge bg-light text-black shadow">昆布わかめ</span>
-                        <span class="badge bg-light text-black shadow">SILVER LINK.</span>
-                        <br>
-                        <span class="badge text-black-50">内容 |</span>
-                        <span class="badge bg-light text-black shadow">喜剧</span>
-                        <span class="badge bg-light text-black shadow">日常</span>
-                        <span class="badge bg-light text-black shadow">萌系 (大概)</span>
-                        <span class="badge bg-light text-black shadow"></span>
-                        <span class="badge bg-light text-black shadow"></span>
-                        <span class="badge bg-light text-black shadow"></span>
-
-                    </p>
-
-                    
-
-                    <style>
-                        ::-webkit-scrollbar {
-                            width: 10px;
-                            height: 8px;
-                            background-color: rgba(0, 0, 0, 0);
-                        }
-
-                        ::-webkit-scrollbar-thumb {
-                            background-color: rgba(0, 0, 0, 0.25);
-                            border-radius: 100px;
-                            border: 2px solid transparent;
-                            background-clip: content-box;
-                        }
-
-                        ::-webkit-scrollbar-track {
-                            background-color: transparent;
-                        }
-                    </style>
-
-                    <div class="overflow-auto m-0 mb-2 card card-body " style="max-height: 200px;">
-                        <!-- 正文，限高200px -->
-                        <figure class="text-end fw-light">
-                            <!-- 台词引用排版块 -->
-                            <blockquote class="blockquote">
-                                <p>我们所经历的每个平凡的日常，也许就是连续发生的奇迹。</p>
-                            </blockquote>
-                            <figcaption class="blockquote-footer">
-                                《日常》
-                            </figcaption>
-                        </figure>
-                        文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段。<br>文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段。<br>文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段。<br>文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段。<br>文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段文段
-                    </div>
-
-                    <div class="btn-group shadow" role="group">
-                        <!-- 文末链接按钮组 -->
-                        <a class="btn btn-sm btn-outline-primary"><i class="bi bi-bookmarks-fill"></i> 番组计划</a>
-                        <a class="btn btn-sm btn-outline-primary"><i class="bi bi-book-half"></i> 萌娘百科</a>
-                        <div class="btn-group" role="group">
-                            <button id="btnGroupDrop1" type="button" class="btn btn-sm btn-primary dropdown-toggle"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                <i class="bi bi-play-btn-fill"></i> 观看
-                            </button>
-                            <ul class="dropdown-menu shadow" aria-labelledby="btnGroupDrop1">
-                                <li>
-                                    <h6 class="dropdown-header">正版源</h6>
-                                </li>
-                                <li><a class="dropdown-item" href="#">搜索 哔哩哔哩动画</a></li>
-                                <li><a class="dropdown-item" href="#">搜索 Acfan</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li>
-                                    <h6 class="dropdown-header">影视站</h6>
-                                </li>
-                                <li><a class="dropdown-item" href="#">搜索 Agefans</a></li>
-                                <li><a class="dropdown-item" href="#">搜索 樱花动漫</a></li>
-                                <li><a class="dropdown-item" href="#">搜索 异世界动漫</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li>
-                                    <h6 class="dropdown-header">其他</h6>
-                                </li>
-                                <li><a class="dropdown-item" href="#">百度搜索在线观看</a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                </div>
-                <!-- </div> -->
-            </div>
-
-        </div>
-
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
+    <div id="root" class="container-fluid"></div>
+    <!-- JQuery -->
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <!-- React -->
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script crossorigin src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <!-- 脚本代码 -->
+    <script type="text/babel" src="./app.js"></script>
+    <!-- Bootstrap5 -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
         integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
         crossorigin="anonymous"></script>
